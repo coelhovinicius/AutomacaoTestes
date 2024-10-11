@@ -1,0 +1,37 @@
+    // CT3
+    it('Método POST', () => {
+        cy.request({
+            method: 'POST',
+            url: 'https://api.restful-api.dev/objects',
+            body: {
+                "name": "ViniBook Pro 1000",
+                "data": {
+                    "year": 2024,
+                    "price": 7849.99,
+                    "CPU model": "Intel Core i9",
+                    "Hard disk size": "2 TB"
+                }
+            }
+        })
+            .then ((response) => {
+                //console.log('Resposta: ', response)
+                expect(response.status).to.equal(200)
+                expect(response.body.name).to.equal('ViniBook Pro 1000')
+            })
+
+
+
+
+
+
+    // CT2
+    it('Buscar dispositivo específico', () => {
+        cy.request({
+            method:'GET',
+            url: 'https://api.restful-api.dev/objects?id=3&id=5&id=10'
+        })
+            .then ((response) => {
+                console.log('Resposta: ', response)
+                expect(response.status).to.equal(200) // Verifica se a mensagem está correta
+        })
+    })
