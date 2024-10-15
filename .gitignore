@@ -2,21 +2,21 @@ Midia/
 
 # Diretórios de dependências
 AutomacaoTestes/node_modules/
-Testes/node_modules/
+TestesApiJson/node_modules/
 
 # Relatórios de testes
 AutomacaoTestes/cypress/results/
-Testes/cypress/results/
+TestesApiJson/cypress/results/
 
 # Capturas de tela e vídeos
 AutomacaoTestes/cypress/screenshots/
 AutomacaoTestes/cypress/videos/
-Testes/cypress/screenshots/
-Testes/cypress/videos/
+TestesApiJson/cypress/screenshots/
+TestesApiJson/cypress/videos/
 
 # Arquivos de configuração locais
 AutomacaoTestes/cypress/results/
-Testes/cypress/results/
+TestesApiJson/cypress/results/
 
 # Logs
 *.log

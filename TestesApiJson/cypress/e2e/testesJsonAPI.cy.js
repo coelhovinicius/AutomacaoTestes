@@ -63,7 +63,7 @@ describe('Testes CRUD', () => {
     })
 
     // CT5
-    it('DELETE para apaagr dados', () => {
+    it('DELETE para apagar dados', () => {
         cy.request({
             method: 'DELETE',
             url: 'https://jsonplaceholder.typicode.com/posts/3',
