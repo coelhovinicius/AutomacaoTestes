@@ -15,7 +15,7 @@
       ]
     },
     "response": {
-      "status": 400,
+      "status": 500,
       "body": "{ \"message\": \"Internal server error: model 'up tsi' is not allowed.\" }",
       "headers": {
         "Content-Type": "application/json"

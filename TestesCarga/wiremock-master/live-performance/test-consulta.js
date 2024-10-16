@@ -5,7 +5,7 @@ export default function () {
 
     test('Validar a consulta de todos os carros', () => {
 
-        const url = 'http://localhost:8080/api/cars'; // URL da API simulada com WireRock
+        const url = 'http://localhost:8080/api/cars'; // URL da API simulada com Wiremock
         const response = http.get(url);
 
         check(response, {

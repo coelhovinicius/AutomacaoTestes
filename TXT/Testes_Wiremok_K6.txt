@@ -1,0 +1,5 @@
+Testes de Performance
+
+Wiremock com K6:
+- java -jar wiremock-standalone-3.9.1.jar - roda o servidor mock para testes;
+- k6 run --vus 10 --duration 10s .\live-performance\test-consulta.js - roda o arquivo de testes "test-consulta.js";
