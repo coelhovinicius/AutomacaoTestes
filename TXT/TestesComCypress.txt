@@ -1,19 +1,18 @@
-Testes com Cypress
-
-API para testes: restful-api.dev
+- API para testes: restful-api.dev
 	- GET: traz dados;
 	- POST: envia dados;
 	- PUT: substitui dados;
 	- PATCH: substitui dados parcialmente;
 	- DELETE: exclui dados.
 
-Testes com Postman
+- Testes com Postman.
 
-npm init -y
-npm install cypress --save-dev
-npx cypress open
-
-Configura o Cypress (E2E)
+- Testes com Cypress:
+	- npm init -y - Inicia um projeto;
+	- npm install cypress --save-dev - instala o cypress;
+	- npx cypress open - abre o cypress.
+	
+Configurar o Cypress (E2E)
 
 Criar pasta "e2e" dentro da pasta "cypress"
 Criar o arquivo de testes .cy.js dentro da pasta "cypress":
